@@ -1,0 +1,240 @@
+-- Merging decision tree log ---
+manifest
+ADDED from D:\JavaNative\LockerSDK\TcnVendLatticeSDKDemo\app\src\main\AndroidManifest.xml:2:1-64:12
+INJECTED from D:\JavaNative\LockerSDK\TcnVendLatticeSDKDemo\app\src\main\AndroidManifest.xml:2:1-64:12
+INJECTED from D:\JavaNative\LockerSDK\TcnVendLatticeSDKDemo\app\src\main\AndroidManifest.xml:2:1-64:12
+INJECTED from D:\JavaNative\LockerSDK\TcnVendLatticeSDKDemo\app\src\main\AndroidManifest.xml:2:1-64:12
+MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\Junaid Akhtar\.gradle\caches\8.9\transforms\c0d86e2eb454ea9ae75671915aa3611f\transformed\appcompat-v7-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Junaid Akhtar\.gradle\caches\8.9\transforms\df9b1d62114fc44a6a97076c3561bfaa\transformed\constraint-layout-1.1.3\AndroidManifest.xml:2:1-11:12
+MERGED from [:tcn_latticeboard-release:] C:\Users\Junaid Akhtar\.gradle\caches\8.9\transforms\08a6ea431e475ca8afdb0f17a90226c2\transformed\tcn_latticeboard-release\AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\Junaid Akhtar\.gradle\caches\8.9\transforms\2d8b9733f95aad3efe702725bfcd0361\transformed\support-fragment-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\Junaid Akhtar\.gradle\caches\8.9\transforms\da56a5edba6de96784acad4477fb8ca0\transformed\animated-vector-drawable-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\Junaid Akhtar\.gradle\caches\8.9\transforms\b78eaec34d0537867737f5984d8774f1\transformed\support-core-ui-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\Junaid Akhtar\.gradle\caches\8.9\transforms\b962e818ef35133923eee092a6700377\transformed\support-core-utils-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\Junaid Akhtar\.gradle\caches\8.9\transforms\525a99114faae20c3e8d36aec47c7ee2\transformed\support-vector-drawable-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:loader:28.0.0] C:\Users\Junaid Akhtar\.gradle\caches\8.9\transforms\7fad31aa16aae274e3010c968efcc7f1\transformed\loader-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\Junaid Akhtar\.gradle\caches\8.9\transforms\e1240f1f2d4a4dea78358bc2acbf5e8e\transformed\viewpager-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\Junaid Akhtar\.gradle\caches\8.9\transforms\537c9623225614d518d2cff394e34336\transformed\coordinatorlayout-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\Junaid Akhtar\.gradle\caches\8.9\transforms\f225a807e21c37d3b186ea52ba8603f6\transformed\drawerlayout-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\Junaid Akhtar\.gradle\caches\8.9\transforms\e380080583968d5b449052b1395e719b\transformed\slidingpanelayout-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:customview:28.0.0] C:\Users\Junaid Akhtar\.gradle\caches\8.9\transforms\90e0d51f66e7f6d595115c540d7accee\transformed\customview-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\Junaid Akhtar\.gradle\caches\8.9\transforms\d8f9bbdfe825e70fb877881b927d4d9a\transformed\swiperefreshlayout-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\Junaid Akhtar\.gradle\caches\8.9\transforms\f0ee747ec0eac0fc7832a5bae6f70860\transformed\asynclayoutinflater-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\Junaid Akhtar\.gradle\caches\8.9\transforms\f69922f01ec96af2193e8a33b2503b4a\transformed\support-compat-28.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\Junaid Akhtar\.gradle\caches\8.9\transforms\98626e9d0390d5da7dc831fe1444e89a\transformed\versionedparcelable-28.0.0\AndroidManifest.xml:17:1-25:12
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\Junaid Akhtar\.gradle\caches\8.9\transforms\b76466a1ed2e495bdbc1f1c1ea4a6626\transformed\cursoradapter-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\Junaid Akhtar\.gradle\caches\8.9\transforms\a21ee6eee0ce719eacd98cc4b9e08715\transformed\runtime-1.1.1\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\Junaid Akhtar\.gradle\caches\8.9\transforms\634f87357427ff149cb024b41809204b\transformed\documentfile-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\Junaid Akhtar\.gradle\caches\8.9\transforms\ddddfb453b8862d32edb27bd809842d6\transformed\localbroadcastmanager-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:print:28.0.0] C:\Users\Junaid Akhtar\.gradle\caches\8.9\transforms\3097e8f36607dc65375b375be0d17e5b\transformed\print-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\Junaid Akhtar\.gradle\caches\8.9\transforms\03e14fc57f2f98eb8760375d5c3e5f4b\transformed\viewmodel-1.1.1\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\Junaid Akhtar\.gradle\caches\8.9\transforms\01c95192d8369d25f1756487d95adbc9\transformed\livedata-1.1.1\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\Junaid Akhtar\.gradle\caches\8.9\transforms\ed31fafc3427fa0a0b07684720bec8f1\transformed\livedata-core-1.1.1\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\Junaid Akhtar\.gradle\caches\8.9\transforms\2a072d7f914a09ec429fa30dcead82d0\transformed\runtime-1.1.1\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\Junaid Akhtar\.gradle\caches\8.9\transforms\f19f52a58f40b86eefce212d7dfa947d\transformed\interpolator-28.0.0\AndroidManifest.xml:17:1-22:12
+	package
+		ADDED from D:\JavaNative\LockerSDK\TcnVendLatticeSDKDemo\app\src\main\AndroidManifest.xml:3:11-44
+		INJECTED from D:\JavaNative\LockerSDK\TcnVendLatticeSDKDemo\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from D:\JavaNative\LockerSDK\TcnVendLatticeSDKDemo\app\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from D:\JavaNative\LockerSDK\TcnVendLatticeSDKDemo\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from D:\JavaNative\LockerSDK\TcnVendLatticeSDKDemo\app\src\main\AndroidManifest.xml:2:11-69
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from D:\JavaNative\LockerSDK\TcnVendLatticeSDKDemo\app\src\main\AndroidManifest.xml:6:5-76
+	android:name
+		ADDED from D:\JavaNative\LockerSDK\TcnVendLatticeSDKDemo\app\src\main\AndroidManifest.xml:6:22-73
+uses-permission#android.permission.CHANGE_WIFI_STATE
+ADDED from D:\JavaNative\LockerSDK\TcnVendLatticeSDKDemo\app\src\main\AndroidManifest.xml:7:5-76
+	android:name
+		ADDED from D:\JavaNative\LockerSDK\TcnVendLatticeSDKDemo\app\src\main\AndroidManifest.xml:7:22-73
+uses-permission#android.permission.WAKE_LOCK
+ADDED from D:\JavaNative\LockerSDK\TcnVendLatticeSDKDemo\app\src\main\AndroidManifest.xml:8:5-68
+	android:name
+		ADDED from D:\JavaNative\LockerSDK\TcnVendLatticeSDKDemo\app\src\main\AndroidManifest.xml:8:22-65
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from D:\JavaNative\LockerSDK\TcnVendLatticeSDKDemo\app\src\main\AndroidManifest.xml:11:5-80
+	android:name
+		ADDED from D:\JavaNative\LockerSDK\TcnVendLatticeSDKDemo\app\src\main\AndroidManifest.xml:11:22-78
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from D:\JavaNative\LockerSDK\TcnVendLatticeSDKDemo\app\src\main\AndroidManifest.xml:13:5-74
+	android:name
+		ADDED from D:\JavaNative\LockerSDK\TcnVendLatticeSDKDemo\app\src\main\AndroidManifest.xml:13:22-72
+uses-permission#android.permission.CHANGE_NETWORK_STATE
+ADDED from D:\JavaNative\LockerSDK\TcnVendLatticeSDKDemo\app\src\main\AndroidManifest.xml:15:5-79
+	android:name
+		ADDED from D:\JavaNative\LockerSDK\TcnVendLatticeSDKDemo\app\src\main\AndroidManifest.xml:15:22-76
+uses-permission#android.permission.INTERNET
+ADDED from D:\JavaNative\LockerSDK\TcnVendLatticeSDKDemo\app\src\main\AndroidManifest.xml:17:5-67
+	android:name
+		ADDED from D:\JavaNative\LockerSDK\TcnVendLatticeSDKDemo\app\src\main\AndroidManifest.xml:17:22-64
+uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
+ADDED from D:\JavaNative\LockerSDK\TcnVendLatticeSDKDemo\app\src\main\AndroidManifest.xml:18:5-81
+	android:name
+		ADDED from D:\JavaNative\LockerSDK\TcnVendLatticeSDKDemo\app\src\main\AndroidManifest.xml:18:22-78
+uses-permission#android.permission.RESTART_PACKAGES
+ADDED from D:\JavaNative\LockerSDK\TcnVendLatticeSDKDemo\app\src\main\AndroidManifest.xml:19:5-75
+	android:name
+		ADDED from D:\JavaNative\LockerSDK\TcnVendLatticeSDKDemo\app\src\main\AndroidManifest.xml:19:22-72
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from D:\JavaNative\LockerSDK\TcnVendLatticeSDKDemo\app\src\main\AndroidManifest.xml:20:5-81
+	android:name
+		ADDED from D:\JavaNative\LockerSDK\TcnVendLatticeSDKDemo\app\src\main\AndroidManifest.xml:20:22-78
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from D:\JavaNative\LockerSDK\TcnVendLatticeSDKDemo\app\src\main\AndroidManifest.xml:21:5-79
+	android:name
+		ADDED from D:\JavaNative\LockerSDK\TcnVendLatticeSDKDemo\app\src\main\AndroidManifest.xml:21:22-77
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from D:\JavaNative\LockerSDK\TcnVendLatticeSDKDemo\app\src\main\AndroidManifest.xml:22:5-79
+	android:name
+		ADDED from D:\JavaNative\LockerSDK\TcnVendLatticeSDKDemo\app\src\main\AndroidManifest.xml:22:22-76
+uses-permission#android.permission.CWJ_GROUP
+ADDED from D:\JavaNative\LockerSDK\TcnVendLatticeSDKDemo\app\src\main\AndroidManifest.xml:25:5-26:23
+	android:name
+		ADDED from D:\JavaNative\LockerSDK\TcnVendLatticeSDKDemo\app\src\main\AndroidManifest.xml:25:22-65
+uses-permission#android.permission.MTWEAK_USER
+ADDED from D:\JavaNative\LockerSDK\TcnVendLatticeSDKDemo\app\src\main\AndroidManifest.xml:29:5-70
+	android:name
+		ADDED from D:\JavaNative\LockerSDK\TcnVendLatticeSDKDemo\app\src\main\AndroidManifest.xml:29:22-67
+uses-permission#android.permission.RECORD_AUDIO
+ADDED from D:\JavaNative\LockerSDK\TcnVendLatticeSDKDemo\app\src\main\AndroidManifest.xml:32:5-70
+	android:name
+		ADDED from D:\JavaNative\LockerSDK\TcnVendLatticeSDKDemo\app\src\main\AndroidManifest.xml:32:22-68
+uses-permission#android.permission.MODIFY_AUDIO_SETTINGS
+ADDED from D:\JavaNative\LockerSDK\TcnVendLatticeSDKDemo\app\src\main\AndroidManifest.xml:33:5-80
+	android:name
+		ADDED from D:\JavaNative\LockerSDK\TcnVendLatticeSDKDemo\app\src\main\AndroidManifest.xml:33:22-77
+uses-permission#android.permission.GET_TASKS
+ADDED from D:\JavaNative\LockerSDK\TcnVendLatticeSDKDemo\app\src\main\AndroidManifest.xml:35:5-68
+	android:name
+		ADDED from D:\JavaNative\LockerSDK\TcnVendLatticeSDKDemo\app\src\main\AndroidManifest.xml:35:22-65
+uses-permission#android.permission.SYSTEM_ALERT_WINDOW
+ADDED from D:\JavaNative\LockerSDK\TcnVendLatticeSDKDemo\app\src\main\AndroidManifest.xml:36:5-78
+	android:name
+		ADDED from D:\JavaNative\LockerSDK\TcnVendLatticeSDKDemo\app\src\main\AndroidManifest.xml:36:22-75
+application
+ADDED from D:\JavaNative\LockerSDK\TcnVendLatticeSDKDemo\app\src\main\AndroidManifest.xml:38:5-62:19
+INJECTED from D:\JavaNative\LockerSDK\TcnVendLatticeSDKDemo\app\src\main\AndroidManifest.xml:38:5-62:19
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Junaid Akhtar\.gradle\caches\8.9\transforms\df9b1d62114fc44a6a97076c3561bfaa\transformed\constraint-layout-1.1.3\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Junaid Akhtar\.gradle\caches\8.9\transforms\df9b1d62114fc44a6a97076c3561bfaa\transformed\constraint-layout-1.1.3\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\Junaid Akhtar\.gradle\caches\8.9\transforms\f69922f01ec96af2193e8a33b2503b4a\transformed\support-compat-28.0.0\AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\Junaid Akhtar\.gradle\caches\8.9\transforms\f69922f01ec96af2193e8a33b2503b4a\transformed\support-compat-28.0.0\AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\Junaid Akhtar\.gradle\caches\8.9\transforms\98626e9d0390d5da7dc831fe1444e89a\transformed\versionedparcelable-28.0.0\AndroidManifest.xml:22:5-23:19
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\Junaid Akhtar\.gradle\caches\8.9\transforms\98626e9d0390d5da7dc831fe1444e89a\transformed\versionedparcelable-28.0.0\AndroidManifest.xml:22:5-23:19
+	android:extractNativeLibs
+		INJECTED from D:\JavaNative\LockerSDK\TcnVendLatticeSDKDemo\app\src\main\AndroidManifest.xml
+	android:appComponentFactory
+		ADDED from [com.android.support:support-compat:28.0.0] C:\Users\Junaid Akhtar\.gradle\caches\8.9\transforms\f69922f01ec96af2193e8a33b2503b4a\transformed\support-compat-28.0.0\AndroidManifest.xml:22:18-91
+	android:supportsRtl
+		ADDED from D:\JavaNative\LockerSDK\TcnVendLatticeSDKDemo\app\src\main\AndroidManifest.xml:42:9-35
+	android:label
+		ADDED from D:\JavaNative\LockerSDK\TcnVendLatticeSDKDemo\app\src\main\AndroidManifest.xml:41:9-41
+	android:allowBackup
+		ADDED from D:\JavaNative\LockerSDK\TcnVendLatticeSDKDemo\app\src\main\AndroidManifest.xml:40:9-35
+	android:theme
+		ADDED from D:\JavaNative\LockerSDK\TcnVendLatticeSDKDemo\app\src\main\AndroidManifest.xml:43:9-65
+	android:name
+		ADDED from D:\JavaNative\LockerSDK\TcnVendLatticeSDKDemo\app\src\main\AndroidManifest.xml:39:9-50
+activity#com.tcn.sdk.latticedemo.MainAct
+ADDED from D:\JavaNative\LockerSDK\TcnVendLatticeSDKDemo\app\src\main\AndroidManifest.xml:44:9-50:20
+	android:name
+		ADDED from D:\JavaNative\LockerSDK\TcnVendLatticeSDKDemo\app\src\main\AndroidManifest.xml:44:19-42
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from D:\JavaNative\LockerSDK\TcnVendLatticeSDKDemo\app\src\main\AndroidManifest.xml:45:13-49:29
+action#android.intent.action.MAIN
+ADDED from D:\JavaNative\LockerSDK\TcnVendLatticeSDKDemo\app\src\main\AndroidManifest.xml:46:17-68
+	android:name
+		ADDED from D:\JavaNative\LockerSDK\TcnVendLatticeSDKDemo\app\src\main\AndroidManifest.xml:46:25-66
+category#android.intent.category.LAUNCHER
+ADDED from D:\JavaNative\LockerSDK\TcnVendLatticeSDKDemo\app\src\main\AndroidManifest.xml:48:17-76
+	android:name
+		ADDED from D:\JavaNative\LockerSDK\TcnVendLatticeSDKDemo\app\src\main\AndroidManifest.xml:48:27-74
+activity#com.tcn.sdk.latticedemo.SerialPortSetting
+ADDED from D:\JavaNative\LockerSDK\TcnVendLatticeSDKDemo\app\src\main\AndroidManifest.xml:51:9-55:20
+	android:launchMode
+		ADDED from D:\JavaNative\LockerSDK\TcnVendLatticeSDKDemo\app\src\main\AndroidManifest.xml:52:13-44
+	android:configChanges
+		ADDED from D:\JavaNative\LockerSDK\TcnVendLatticeSDKDemo\app\src\main\AndroidManifest.xml:54:13-70
+	android:name
+		ADDED from D:\JavaNative\LockerSDK\TcnVendLatticeSDKDemo\app\src\main\AndroidManifest.xml:53:13-45
+receiver#controller.BootBroadcastReceiver
+ADDED from D:\JavaNative\LockerSDK\TcnVendLatticeSDKDemo\app\src\main\AndroidManifest.xml:56:9-60:20
+	android:name
+		ADDED from D:\JavaNative\LockerSDK\TcnVendLatticeSDKDemo\app\src\main\AndroidManifest.xml:56:19-66
+intent-filter#action:name:android.intent.action.BOOT_COMPLETED
+ADDED from D:\JavaNative\LockerSDK\TcnVendLatticeSDKDemo\app\src\main\AndroidManifest.xml:57:13-59:29
+	android:priority
+		ADDED from D:\JavaNative\LockerSDK\TcnVendLatticeSDKDemo\app\src\main\AndroidManifest.xml:57:28-50
+action#android.intent.action.BOOT_COMPLETED
+ADDED from D:\JavaNative\LockerSDK\TcnVendLatticeSDKDemo\app\src\main\AndroidManifest.xml:58:17-79
+	android:name
+		ADDED from D:\JavaNative\LockerSDK\TcnVendLatticeSDKDemo\app\src\main\AndroidManifest.xml:58:25-76
+service#controller.VendService
+ADDED from D:\JavaNative\LockerSDK\TcnVendLatticeSDKDemo\app\src\main\AndroidManifest.xml:61:9-66
+	android:name
+		ADDED from D:\JavaNative\LockerSDK\TcnVendLatticeSDKDemo\app\src\main\AndroidManifest.xml:61:18-55
+uses-sdk
+INJECTED from D:\JavaNative\LockerSDK\TcnVendLatticeSDKDemo\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from D:\JavaNative\LockerSDK\TcnVendLatticeSDKDemo\app\src\main\AndroidManifest.xml
+INJECTED from D:\JavaNative\LockerSDK\TcnVendLatticeSDKDemo\app\src\main\AndroidManifest.xml
+MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\Junaid Akhtar\.gradle\caches\8.9\transforms\c0d86e2eb454ea9ae75671915aa3611f\transformed\appcompat-v7-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\Junaid Akhtar\.gradle\caches\8.9\transforms\c0d86e2eb454ea9ae75671915aa3611f\transformed\appcompat-v7-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Junaid Akhtar\.gradle\caches\8.9\transforms\df9b1d62114fc44a6a97076c3561bfaa\transformed\constraint-layout-1.1.3\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Junaid Akhtar\.gradle\caches\8.9\transforms\df9b1d62114fc44a6a97076c3561bfaa\transformed\constraint-layout-1.1.3\AndroidManifest.xml:5:5-7:41
+MERGED from [:tcn_latticeboard-release:] C:\Users\Junaid Akhtar\.gradle\caches\8.9\transforms\08a6ea431e475ca8afdb0f17a90226c2\transformed\tcn_latticeboard-release\AndroidManifest.xml:7:5-9:41
+MERGED from [:tcn_latticeboard-release:] C:\Users\Junaid Akhtar\.gradle\caches\8.9\transforms\08a6ea431e475ca8afdb0f17a90226c2\transformed\tcn_latticeboard-release\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\Junaid Akhtar\.gradle\caches\8.9\transforms\2d8b9733f95aad3efe702725bfcd0361\transformed\support-fragment-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\Junaid Akhtar\.gradle\caches\8.9\transforms\2d8b9733f95aad3efe702725bfcd0361\transformed\support-fragment-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\Junaid Akhtar\.gradle\caches\8.9\transforms\da56a5edba6de96784acad4477fb8ca0\transformed\animated-vector-drawable-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\Junaid Akhtar\.gradle\caches\8.9\transforms\da56a5edba6de96784acad4477fb8ca0\transformed\animated-vector-drawable-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\Junaid Akhtar\.gradle\caches\8.9\transforms\b78eaec34d0537867737f5984d8774f1\transformed\support-core-ui-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\Junaid Akhtar\.gradle\caches\8.9\transforms\b78eaec34d0537867737f5984d8774f1\transformed\support-core-ui-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\Junaid Akhtar\.gradle\caches\8.9\transforms\b962e818ef35133923eee092a6700377\transformed\support-core-utils-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\Junaid Akhtar\.gradle\caches\8.9\transforms\b962e818ef35133923eee092a6700377\transformed\support-core-utils-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\Junaid Akhtar\.gradle\caches\8.9\transforms\525a99114faae20c3e8d36aec47c7ee2\transformed\support-vector-drawable-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\Junaid Akhtar\.gradle\caches\8.9\transforms\525a99114faae20c3e8d36aec47c7ee2\transformed\support-vector-drawable-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] C:\Users\Junaid Akhtar\.gradle\caches\8.9\transforms\7fad31aa16aae274e3010c968efcc7f1\transformed\loader-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] C:\Users\Junaid Akhtar\.gradle\caches\8.9\transforms\7fad31aa16aae274e3010c968efcc7f1\transformed\loader-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\Junaid Akhtar\.gradle\caches\8.9\transforms\e1240f1f2d4a4dea78358bc2acbf5e8e\transformed\viewpager-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\Junaid Akhtar\.gradle\caches\8.9\transforms\e1240f1f2d4a4dea78358bc2acbf5e8e\transformed\viewpager-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\Junaid Akhtar\.gradle\caches\8.9\transforms\537c9623225614d518d2cff394e34336\transformed\coordinatorlayout-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\Junaid Akhtar\.gradle\caches\8.9\transforms\537c9623225614d518d2cff394e34336\transformed\coordinatorlayout-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\Junaid Akhtar\.gradle\caches\8.9\transforms\f225a807e21c37d3b186ea52ba8603f6\transformed\drawerlayout-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\Junaid Akhtar\.gradle\caches\8.9\transforms\f225a807e21c37d3b186ea52ba8603f6\transformed\drawerlayout-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\Junaid Akhtar\.gradle\caches\8.9\transforms\e380080583968d5b449052b1395e719b\transformed\slidingpanelayout-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\Junaid Akhtar\.gradle\caches\8.9\transforms\e380080583968d5b449052b1395e719b\transformed\slidingpanelayout-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] C:\Users\Junaid Akhtar\.gradle\caches\8.9\transforms\90e0d51f66e7f6d595115c540d7accee\transformed\customview-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] C:\Users\Junaid Akhtar\.gradle\caches\8.9\transforms\90e0d51f66e7f6d595115c540d7accee\transformed\customview-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\Junaid Akhtar\.gradle\caches\8.9\transforms\d8f9bbdfe825e70fb877881b927d4d9a\transformed\swiperefreshlayout-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\Junaid Akhtar\.gradle\caches\8.9\transforms\d8f9bbdfe825e70fb877881b927d4d9a\transformed\swiperefreshlayout-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\Junaid Akhtar\.gradle\caches\8.9\transforms\f0ee747ec0eac0fc7832a5bae6f70860\transformed\asynclayoutinflater-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\Junaid Akhtar\.gradle\caches\8.9\transforms\f0ee747ec0eac0fc7832a5bae6f70860\transformed\asynclayoutinflater-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\Junaid Akhtar\.gradle\caches\8.9\transforms\f69922f01ec96af2193e8a33b2503b4a\transformed\support-compat-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\Junaid Akhtar\.gradle\caches\8.9\transforms\f69922f01ec96af2193e8a33b2503b4a\transformed\support-compat-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\Junaid Akhtar\.gradle\caches\8.9\transforms\98626e9d0390d5da7dc831fe1444e89a\transformed\versionedparcelable-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\Junaid Akhtar\.gradle\caches\8.9\transforms\98626e9d0390d5da7dc831fe1444e89a\transformed\versionedparcelable-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\Junaid Akhtar\.gradle\caches\8.9\transforms\b76466a1ed2e495bdbc1f1c1ea4a6626\transformed\cursoradapter-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\Junaid Akhtar\.gradle\caches\8.9\transforms\b76466a1ed2e495bdbc1f1c1ea4a6626\transformed\cursoradapter-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\Junaid Akhtar\.gradle\caches\8.9\transforms\a21ee6eee0ce719eacd98cc4b9e08715\transformed\runtime-1.1.1\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\Junaid Akhtar\.gradle\caches\8.9\transforms\a21ee6eee0ce719eacd98cc4b9e08715\transformed\runtime-1.1.1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\Junaid Akhtar\.gradle\caches\8.9\transforms\634f87357427ff149cb024b41809204b\transformed\documentfile-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\Junaid Akhtar\.gradle\caches\8.9\transforms\634f87357427ff149cb024b41809204b\transformed\documentfile-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\Junaid Akhtar\.gradle\caches\8.9\transforms\ddddfb453b8862d32edb27bd809842d6\transformed\localbroadcastmanager-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\Junaid Akhtar\.gradle\caches\8.9\transforms\ddddfb453b8862d32edb27bd809842d6\transformed\localbroadcastmanager-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] C:\Users\Junaid Akhtar\.gradle\caches\8.9\transforms\3097e8f36607dc65375b375be0d17e5b\transformed\print-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] C:\Users\Junaid Akhtar\.gradle\caches\8.9\transforms\3097e8f36607dc65375b375be0d17e5b\transformed\print-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\Junaid Akhtar\.gradle\caches\8.9\transforms\03e14fc57f2f98eb8760375d5c3e5f4b\transformed\viewmodel-1.1.1\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\Junaid Akhtar\.gradle\caches\8.9\transforms\03e14fc57f2f98eb8760375d5c3e5f4b\transformed\viewmodel-1.1.1\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\Junaid Akhtar\.gradle\caches\8.9\transforms\01c95192d8369d25f1756487d95adbc9\transformed\livedata-1.1.1\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\Junaid Akhtar\.gradle\caches\8.9\transforms\01c95192d8369d25f1756487d95adbc9\transformed\livedata-1.1.1\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\Junaid Akhtar\.gradle\caches\8.9\transforms\ed31fafc3427fa0a0b07684720bec8f1\transformed\livedata-core-1.1.1\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\Junaid Akhtar\.gradle\caches\8.9\transforms\ed31fafc3427fa0a0b07684720bec8f1\transformed\livedata-core-1.1.1\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\Junaid Akhtar\.gradle\caches\8.9\transforms\2a072d7f914a09ec429fa30dcead82d0\transformed\runtime-1.1.1\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\Junaid Akhtar\.gradle\caches\8.9\transforms\2a072d7f914a09ec429fa30dcead82d0\transformed\runtime-1.1.1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\Junaid Akhtar\.gradle\caches\8.9\transforms\f19f52a58f40b86eefce212d7dfa947d\transformed\interpolator-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\Junaid Akhtar\.gradle\caches\8.9\transforms\f19f52a58f40b86eefce212d7dfa947d\transformed\interpolator-28.0.0\AndroidManifest.xml:20:5-44
+	android:targetSdkVersion
+		INJECTED from D:\JavaNative\LockerSDK\TcnVendLatticeSDKDemo\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from D:\JavaNative\LockerSDK\TcnVendLatticeSDKDemo\app\src\main\AndroidManifest.xml

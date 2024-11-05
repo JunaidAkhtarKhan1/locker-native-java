@@ -1,0 +1,4 @@
+#Mon Nov 04 16:47:19 PKT 2024
+base.0=D\:\\JavaNative\\LockerSDK\\TcnVendLatticeSDKDemo\\app\\build\\intermediates\\dex\\debugAndroidTest\\mergeDexDebugAndroidTest\\classes.dex
+path.0=classes.dex
+renamed.0=classes.dex

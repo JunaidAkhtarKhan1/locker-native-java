@@ -1,0 +1,4 @@
+com.tcn.sdk.latticedemo.test.app-androidTest-0 D:\JavaNative\LockerSDK\TcnVendLatticeSDKDemo\app\build\generated\res\resValues\androidTest\debug
+com.tcn.sdk.latticedemo.test.app-mergeDebugAndroidTestResources-1 D:\JavaNative\LockerSDK\TcnVendLatticeSDKDemo\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\merged.dir
+com.tcn.sdk.latticedemo.test.app-mergeDebugAndroidTestResources-2 D:\JavaNative\LockerSDK\TcnVendLatticeSDKDemo\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\stripped.dir
+com.tcn.sdk.latticedemo.test.app-debugAndroidTest-3 D:\JavaNative\LockerSDK\TcnVendLatticeSDKDemo\app\build\intermediates\merged_res\debugAndroidTest\mergeDebugAndroidTestResources
