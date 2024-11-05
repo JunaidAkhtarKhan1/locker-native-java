@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: :tcn_latticeboard-release:@aar" external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/8.9/transforms/08a6ea431e475ca8afdb0f17a90226c2/transformed/tcn_latticeboard-release/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/8.9/transforms/08a6ea431e475ca8afdb0f17a90226c2/transformed/tcn_latticeboard-release/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/8.9/transforms/08a6ea431e475ca8afdb0f17a90226c2/transformed/tcn_latticeboard-release/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
