@@ -68,9 +68,9 @@
     <string name="ui_base_notify_shipment_fail">出货失败</string>
     <string name="ui_base_notify_contact_merchant">请联系商家</string>
     <string name="ui_base_notify_fail_contact">出货失败，请联系商家！</string>
-    <string name="ui_base_notify_shipment_success">出货成功</string>
+    <string name="ui_base_notify_shipment_success">LOL</string>
     <string name="ui_base_notify_receive_goods">请领取您的商品</string>
-    <string name="ui_base_notify_shipsuc_rec_notify">出货成功，请领取您的商品！</string>
+    <string name="ui_base_notify_shipsuc_rec_notify">LOL，请领取您的商品！</string>
     <string name="ui_base_notify_receive_goods_first">请取走商品</string>
 
     <string name="background_lat_query_addr">查询格子地址</string>
@@ -94,18 +94,18 @@
     <string name="background_lat_end_column">结束列（1-8）</string>
     <string name="background_lat_invaild">无效</string>
     <string name="background_lat_set_vaild">格子有效设置</string>
-    <string name="background_drive_slot_testing">货道测试中</string>
+    <string name="background_drive_slot_testing">In Progress</string>
     <string name="background_notify_sys_busy">系统忙</string>
     <string name="background_notify_slot_fault">故障货道: </string>
     <string name="background_notify_slot_code">故障代码: </string>
     <string name="background_snake_slotno_err">货道错误</string>
     <string name="background_snake_have_no_goods">无货</string>
     <string name="background_snake_have_goods">有货</string>
-    <string name="background_notify_shipment_success">出货成功</string>
+    <string name="background_notify_shipment_success">Successful</string>
     <string name="background_notify_receive_goods">请领取您的商品</string>
     <string name="background_drive_check_seriport">请检查串口通讯</string>
     <string name="background_drive_success">成功</string>
-    <string name="background_notify_shipment_fail">出货失败</string>
+    <string name="background_notify_shipment_fail">Shipment Failed</string>
     <string name="ui_base_menu_save">保存</string>
     <string name="ui_base_begin">开始</string>
     <string name="ui_base_backgroound_ensure">确认</string>

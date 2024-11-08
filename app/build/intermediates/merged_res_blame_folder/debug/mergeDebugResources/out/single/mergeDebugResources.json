@@ -188,12 +188,12 @@
         "source": "C:\\Users\\Junaid Akhtar\\.gradle\\daemon\\8.9\\com.tcn.sdk.latticedemo.app-main-11:\\xml\\preferences.xml"
     },
     {
-        "merged": "C:\\Users\\Junaid Akhtar\\.gradle\\daemon\\8.9\\com.tcn.sdk.latticedemo.app-debug-9:\\drawable_ui_base_dialoback.xml.flat",
-        "source": "C:\\Users\\Junaid Akhtar\\.gradle\\daemon\\8.9\\com.tcn.sdk.latticedemo.app-main-11:\\drawable\\ui_base_dialoback.xml"
-    },
-    {
         "merged": "C:\\Users\\Junaid Akhtar\\.gradle\\daemon\\8.9\\com.tcn.sdk.latticedemo.app-debug-9:\\layout_preference_set.xml.flat",
         "source": "C:\\Users\\Junaid Akhtar\\.gradle\\daemon\\8.9\\com.tcn.sdk.latticedemo.app-main-11:\\layout\\preference_set.xml"
+    },
+    {
+        "merged": "C:\\Users\\Junaid Akhtar\\.gradle\\daemon\\8.9\\com.tcn.sdk.latticedemo.app-debug-9:\\drawable_ui_base_dialoback.xml.flat",
+        "source": "C:\\Users\\Junaid Akhtar\\.gradle\\daemon\\8.9\\com.tcn.sdk.latticedemo.app-main-11:\\drawable\\ui_base_dialoback.xml"
     },
     {
         "merged": "C:\\Users\\Junaid Akhtar\\.gradle\\daemon\\8.9\\com.tcn.sdk.latticedemo.app-debug-9:\\drawable_ui_base_circlebuttonstyle.xml.flat",

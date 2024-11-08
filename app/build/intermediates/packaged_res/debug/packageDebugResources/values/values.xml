@@ -226,6 +226,7 @@
     <color name="ui_base_wheat">#F5DEB3</color>
     <color name="ui_base_whitesmoke">#F5F5F5</color>
     <color name="ui_base_yellow">#FFFF00</color>
+    <color name="yellow">#ffff00</color>
     <string name="app_name">TcnVendLatticeSDKDemo</string>
     <string name="background_backgroound_cancel">取消</string>
     <string name="background_backgroound_clear_fault">清除故障</string>
@@ -241,7 +242,7 @@
     <string name="background_drive_query_slot">查询货道</string>
     <string name="background_drive_set">设置</string>
     <string name="background_drive_setting">设置中</string>
-    <string name="background_drive_slot_testing">货道测试中</string>
+    <string name="background_drive_slot_testing">In Progress</string>
     <string name="background_drive_success">成功</string>
     <string name="background_drive_tips_clean_fault_success">清除故障成功</string>
     <string name="background_drive_tips_have_fault">有故障</string>
@@ -283,8 +284,8 @@
     <string name="background_menu_settings">菜单设置</string>
     <string name="background_notify_contact_merchant">请联系商家</string>
     <string name="background_notify_receive_goods">请领取您的商品</string>
-    <string name="background_notify_shipment_fail">出货失败</string>
-    <string name="background_notify_shipment_success">出货成功</string>
+    <string name="background_notify_shipment_fail">Shipment Failed</string>
+    <string name="background_notify_shipment_success">Successful</string>
     <string name="background_notify_slot_code">故障代码: </string>
     <string name="background_notify_slot_fault">故障货道: </string>
     <string name="background_notify_sys_busy">系统忙</string>
@@ -320,9 +321,9 @@
     <string name="ui_base_notify_receive_goods_first">请取走商品</string>
     <string name="ui_base_notify_select_other">请选择其他商品！</string>
     <string name="ui_base_notify_shipment_fail">出货失败</string>
-    <string name="ui_base_notify_shipment_success">出货成功</string>
+    <string name="ui_base_notify_shipment_success">LOL</string>
     <string name="ui_base_notify_shipping">正在出货</string>
-    <string name="ui_base_notify_shipsuc_rec_notify">出货成功，请领取您的商品！</string>
+    <string name="ui_base_notify_shipsuc_rec_notify">LOL，请领取您的商品！</string>
     <string name="ui_base_notify_slot">货道: </string>
     <string name="ui_base_notify_slot_code">故障代码: </string>
     <string name="ui_base_notify_slot_err">故障: </string>

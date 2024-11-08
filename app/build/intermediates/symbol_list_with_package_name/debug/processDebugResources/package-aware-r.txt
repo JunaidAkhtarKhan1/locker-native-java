@@ -628,6 +628,7 @@ color ui_base_violet
 color ui_base_wheat
 color ui_base_whitesmoke
 color ui_base_yellow
+color yellow
 dimen abc_action_bar_content_inset_material
 dimen abc_action_bar_content_inset_with_nav
 dimen abc_action_bar_default_height_material
@@ -973,18 +974,12 @@ id m_lattice_num_set_column_start
 id m_lattice_num_set_layout
 id m_lattice_num_set_row
 id m_lattice_open_batch_btn
-id m_lattice_open_batch_end
 id m_lattice_open_batch_start
 id m_scan_light_btn
 id m_scan_light_layout
 id m_scan_light_num_end
 id m_scan_light_num_start
 id main_serport
-id menu_lat_query_addr
-id menu_lat_query_slot
-id menu_lat_reqselect
-id menu_lat_select_addr
-id menu_lat_ship_slot
 id menu_setttings_titlebar
 id message
 id middle

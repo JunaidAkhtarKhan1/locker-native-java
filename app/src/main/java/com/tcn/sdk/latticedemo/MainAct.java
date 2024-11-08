@@ -11,7 +11,6 @@ import android.widget.CheckBox;
 import android.widget.EditText;
 import android.widget.LinearLayout;
 
-import com.tcn.latticeboard.control.PayMethod;
 import com.tcn.latticeboard.control.TcnVendEventID;
 import com.tcn.latticeboard.control.TcnVendEventResultID;
 import com.tcn.latticeboard.control.TcnVendIF;
@@ -166,17 +165,15 @@ public class MainAct extends TcnMainActivity {
 		m_Titlebar = (Titlebar) findViewById(R.id.menu_setttings_titlebar);
 		if (m_Titlebar != null) {
 			m_Titlebar.setButtonType(Titlebar.BUTTON_TYPE_BACK);
-			m_Titlebar.setButtonName(R.string.background_menu_settings);
+			m_Titlebar.setButtonName("Integration Xperts");
 			m_Titlebar.setTitleBarListener(m_TitleBarListener);
 		}
 
 		main_serport = (Button) findViewById(R.id.main_serport);
 		main_serport.setOnClickListener(m_ClickListener);
 
-		menu_lat_ship_slot = (ButtonEditSelectD) findViewById(R.id.menu_lat_ship_slot);
 		if (menu_lat_ship_slot != null) {
 			menu_lat_ship_slot.setButtonType(ButtonEditSelectD.BUTTON_TYPE_EDIT_QUERY);
-//			menu_lat_ship_slot.setButtonName("出货例子(同一个订单只出一次)");
 			menu_lat_ship_slot.setButtonName("Shipment creation (On shipment for same order)");
 			menu_lat_ship_slot.setButtonNameTextSize(TcnVendIF.getInstance().getFitScreenSize(20));
 			menu_lat_ship_slot.setButtonQueryText("出货");
@@ -187,27 +184,8 @@ public class MainAct extends TcnMainActivity {
 			menu_lat_ship_slot.setButtonListener(m_ButtonEditClickListener);
 
 		}
-
-		menu_lat_reqselect = (ButtonEditSelectD) findViewById(R.id.menu_lat_reqselect);
-		if (menu_lat_reqselect != null) {
-			menu_lat_reqselect.setButtonType(ButtonEditSelectD.BUTTON_TYPE_EDIT_QUERY);
-//			menu_lat_reqselect.setButtonName("选择货道");
-			menu_lat_reqselect.setButtonName("Select Cargo Lane");
-			menu_lat_reqselect.setButtonNameTextSize(TcnVendIF.getInstance().getFitScreenSize(20));
-			menu_lat_reqselect.setButtonQueryText("选择");
-//			menu_lat_reqselect.setButtonQueryText("");
-			menu_lat_reqselect.setButtonQueryTextSize(TcnVendIF.getInstance().getFitScreenSize(16));
-			menu_lat_reqselect.setButtonQueryTextColor("#ffffff");
-			menu_lat_reqselect.setButtonDisplayTextColor("#4e5d72");
-			menu_lat_reqselect.setInputTypeInput(InputType.TYPE_CLASS_NUMBER);
-			menu_lat_reqselect.setButtonListener(m_ButtonEditClickListener);
-
-		}
-
-		menu_lat_query_addr = (ButtonEditSelectD) findViewById(R.id.menu_lat_query_addr);
 		if (menu_lat_query_addr != null) {
 			menu_lat_query_addr.setButtonType(ButtonEditSelectD.BUTTON_TYPE_EDIT_QUERY);
-//			menu_lat_query_addr.setButtonName(getString(R.string.background_lat_query_addr));
 			menu_lat_query_addr.setButtonName("Query grid address");
 
 			menu_lat_query_addr.setButtonNameTextSize(TcnVendIF.getInstance().getFitScreenSize(20));
@@ -220,10 +198,8 @@ public class MainAct extends TcnMainActivity {
 
 		}
 
-		menu_lat_query_slot = (ButtonEditSelectD) findViewById(R.id.menu_lat_query_slot);
 		if (menu_lat_query_slot != null) {
 			menu_lat_query_slot.setButtonType(ButtonEditSelectD.BUTTON_TYPE_EDIT_QUERY);
-//			menu_lat_query_slot.setButtonName(getString(R.string.background_lat_query_slot));
 			menu_lat_query_slot.setButtonName("Query Grid");
 			menu_lat_query_slot.setButtonNameTextSize(TcnVendIF.getInstance().getFitScreenSize(20));
 			menu_lat_query_slot.setButtonQueryText("Query");
@@ -236,7 +212,6 @@ public class MainAct extends TcnMainActivity {
 		}
 
 		m_lattice_open_batch_start = (EditText) findViewById(R.id.m_lattice_open_batch_start);
-		m_lattice_open_batch_end = (EditText) findViewById(R.id.m_lattice_open_batch_end);
 
 		m_lattice_open_batch_btn = (Button)findViewById(R.id.m_lattice_open_batch_btn);
 		m_lattice_open_batch_btn.setOnClickListener(m_ClickListener);
@@ -248,25 +223,6 @@ public class MainAct extends TcnMainActivity {
 
 		m_lattice_close_batch_btn = (Button)findViewById(R.id.m_lattice_close_batch_btn);
 		m_lattice_close_batch_btn.setOnClickListener(m_ClickListener);
-
-		menu_lat_select_addr = (ButtonEditSelectD) findViewById(R.id.menu_lat_select_addr);
-		if (menu_lat_select_addr != null) {
-			menu_lat_select_addr.setButtonType(ButtonEditSelectD.BUTTON_TYPE_SELECT);
-			menu_lat_select_addr.setButtonName(getString(R.string.background_tip_set_select_cabinet_no));
-			menu_lat_select_addr.setButtonNameTextSize(TcnVendIF.getInstance().getFitScreenSize(20));
-			menu_lat_select_addr.setButtonQueryText(getString(R.string.background_drive_query));
-			menu_lat_select_addr.setButtonQueryTextSize(TcnVendIF.getInstance().getFitScreenSize(16));
-			menu_lat_select_addr.setButtonQueryTextColor("#ffffff");
-			menu_lat_select_addr.setButtonDisplayTextColor("#4e5d72");
-			menu_lat_select_addr.setInputTypeInput(InputType.TYPE_CLASS_NUMBER);
-			menu_lat_select_addr.setButtonListener(m_ButtonEditClickListener);
-			if (UIComBack.getInstance().isMutiGrpLattice()) {
-				menu_lat_select_addr.setVisibility(View.VISIBLE);
-			} else {
-				menu_lat_select_addr.setVisibility(View.GONE);
-			}
-		}
-
 
 		m_scan_light_row_start = (EditText) findViewById(R.id.m_scan_light_num_start);
 		m_scan_light_row_end = (EditText) findViewById(R.id.m_scan_light_num_end);
@@ -433,25 +389,27 @@ public class MainAct extends TcnMainActivity {
 				String start = m_lattice_open_batch_start.getText().toString();
 //				String start = "101";
 //				String end = "118";
-				String end = m_lattice_open_batch_end.getText().toString();
+//				String end = m_lattice_open_batch_end.getText().toString();
 
-				if ((start == null) || (start.length() < 1)) {
-					TcnUtilityUI.getToast(MainAct.this,"Please enter the starting grid number");
-					return;
-				}
+				TcnVendIF.getInstance().reqWriteDataShipTest(Integer.valueOf(start),Integer.valueOf(start));
 
-				if ((end == null) || (end.length() < 1)) {
-					end = start;
-				}
 
-				for (int i = Integer.valueOf(start); i <= Integer.valueOf(end); i++) {
-				TcnVendIF.getInstance().reqWriteDataShipTest(i,164);
-                    try {
-                        Thread.sleep(3000); // Delay for 3000 milliseconds (3 second)
-                    } catch (InterruptedException e) {
-                        throw new RuntimeException(e);
-                    }
-                }
+//				if ((start == null) || (start.length() < 1)) {
+//					TcnUtilityUI.getToast(MainAct.this,"Please enter the starting grid number");
+//					return;
+//				}
+
+//				if ((end == null) || (end.length() < 1)) {
+//					end = start;
+//				}
+
+//				for (int i = Integer.valueOf(start); i <= Integer.valueOf(end); i++) {
+//                    try {
+//                        Thread.sleep(3000); // Delay for 3000 milliseconds (3 second)
+//                    } catch (InterruptedException e) {
+//                        throw new RuntimeException(e);
+//                    }
+//                }
 
 			} else if (R.id.m_lattice_close_batch_btn == id) {
 				String start = m_lattice_close_batch_start.getText().toString();
@@ -529,60 +487,15 @@ public class MainAct extends TcnMainActivity {
 				return;
 			}
 			int id = v.getId();
-			if (R.id.menu_lat_query_addr == id) {
-				if (ButtonEditSelectD.BUTTON_ID_QUERY == buttonId) {
-					menu_lat_query_addr.setButtonDisplayText("");
-					String strParam = menu_lat_query_addr.getButtonEditInputText();
-					if ((null == strParam) || (strParam.length() < 1)) {
-						TcnUtilityUI.getToast(MainAct.this, getString(R.string.background_lat_input_cabinetno));
-					} else {
-						TcnVendIF.getInstance().reqQueryAddress(Integer.valueOf(strParam));
-					}
-				}
-			} else if (R.id.menu_lat_query_slot == id) {
-				if (ButtonEditSelectD.BUTTON_ID_QUERY == buttonId) {
-					menu_lat_query_slot.setButtonDisplayText("");
-					String strParam = menu_lat_query_slot.getButtonEditInputText();
-					if ((null == strParam) || (strParam.length() < 1)) {
-						TcnUtilityUI.getToast(MainAct.this, getString(R.string.background_lat_input_cabinetno));
-					} else {
-						TcnVendIF.getInstance().reqQuerySlotStatus(Integer.valueOf(strParam));
-					}
-				}
-			} else if (R.id.menu_lat_select_addr == id) {
+
 				if (ButtonEditSelectD.BUTTON_ID_QUERY == buttonId) {
 					menu_lat_select_addr.setButtonDisplayText("");
 				} else if (ButtonEditSelectD.BUTTON_ID_SELECT == buttonId) {
 					showSelectDialog(-1,getString(R.string.background_drive_tips_select_cabinetno),menu_lat_select_addr.getButtonEdit(), "",UIComBack.getInstance().getGroupListLatticeShow());
-				} else {
+				}
+				else {
 
 				}
-			}  else if (R.id.menu_lat_ship_slot == id) {
-				if (ButtonEditSelectD.BUTTON_ID_QUERY == buttonId) {
-					String strParam = menu_lat_ship_slot.getButtonEditInputText();
-					if ((null == strParam) || (strParam.length() < 1)) {
-						TcnUtilityUI.getToast(MainAct.this, getString(R.string.background_drive_tips_input_slotno));
-					} else {
-						int slotNo = Integer.valueOf(strParam);//出货的货道号
-						String shipMethod = PayMethod.PAYMETHED_WECHAT; //出货方法,微信支付出货，此处自己可以修改。
-						String amount = "0.1";    //支付的金额（元）,自己修改
-						String tradeNo = "1811020095201811150126888";//支付订单号，每次出货，订单号不能一样，此处自己修改。
-						TcnVendIF.getInstance().reqShip(slotNo,shipMethod,amount,tradeNo);
-					}
-				}
-			} else if (R.id.menu_lat_reqselect == id) {
-				if (ButtonEditSelectD.BUTTON_ID_QUERY == buttonId) {
-					String strParam = menu_lat_reqselect.getButtonEditInputText();
-					if ((null == strParam) || (strParam.length() < 1)) {
-						TcnUtilityUI.getToast(MainAct.this, getString(R.string.background_drive_tips_input_slotno));
-					} else {
-						TcnVendIF.getInstance().reqSelectSlotNo(Integer.valueOf(strParam));
-					}
-				}
-			}
-			else {
-
-			}
 		}
 	}
 
@@ -649,9 +562,9 @@ public class MainAct extends TcnMainActivity {
 						m_OutDialog.cancel();
 					}
 					if (m_LoadingDialog == null) {
-						m_LoadingDialog = new LoadingDialog(MainAct.this, getString(R.string.ui_base_notify_shipment_success), getString(R.string.ui_base_notify_receive_goods));
+						m_LoadingDialog = new LoadingDialog(MainAct.this, "Shipment Successful", getString(R.string.ui_base_notify_receive_goods));
 					} else {
-						m_LoadingDialog.setLoadText(getString(R.string.ui_base_notify_shipment_success));
+						m_LoadingDialog.setLoadText("Shipment Successful");
 						m_LoadingDialog.setTitle(getString(R.string.ui_base_notify_receive_goods));
 					}
 					m_LoadingDialog.setShowTime(3);

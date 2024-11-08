@@ -17,7 +17,7 @@
             android:layout_marginLeft="20dp"
             android:background="@color/blue"
             android:padding="18dp"
-            android:text="@string/ui_base_back"
+            android:text="Back"
             style="@style/ui_base_menubutton"
             android:onClick="serial_back"
             />

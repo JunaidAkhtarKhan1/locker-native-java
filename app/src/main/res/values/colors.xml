@@ -18,6 +18,7 @@
     <color name="app_steelblue">#4682B4</color>
     <color name="red">#ffff0000</color>
     <color name="blue">#ff0000ff</color>
+    <color name="yellow">#ffff00</color>
     <!-- 自定义控件侧边栏需要用到的颜色Start -->
     <color name="ui_base_rbm_menu_background">#303030</color>
     <color name="ui_base_rbm_item_text_color">#ffffff</color>
